@@ -17,21 +17,21 @@
   "season",
   "section_break_cdrs",
   "number_of_beds",
-  "area_size_hactres",
+  "area_size",
   "light_profile",
   "value_at_cost",
+  "value_at_sale",
   "column_break_qqxv",
   "bed_length",
   "resting_days",
   "estimated_put",
   "estimated_project_cost",
-  "value_at_sale",
+  "expected_profit",
   "column_break_fmgj",
   "bed_width",
   "cost_put",
   "land_ownership",
   "expected_yields",
-  "expected_profit",
   "section_break_ftag",
   "description"
  ],
@@ -81,7 +81,7 @@
    "fieldname": "planting_method",
    "fieldtype": "Select",
    "label": "Planting Method",
-   "options": "Planted in bed\nCover Crop\nRow Crop\nOther"
+   "options": "\nPlanted in bed\nCover Crop\nRow Crop\nOther"
   },
   {
    "fieldname": "section_break_cdrs",
@@ -91,11 +91,6 @@
    "fieldname": "number_of_beds",
    "fieldtype": "Data",
    "label": "Number of Beds"
-  },
-  {
-   "fieldname": "area_size_hactres",
-   "fieldtype": "Float",
-   "label": "Area Size (Hactres)"
   },
   {
    "fieldname": "column_break_qqxv",
@@ -175,12 +170,17 @@
    "fieldname": "cost_put",
    "fieldtype": "Currency",
    "label": "Cost of seed/plants put"
+  },
+  {
+   "fieldname": "area_size",
+   "fieldtype": "Float",
+   "label": "Area Size (Hectares)"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 15:35:57.963925",
+ "modified": "2025-05-02 16:21:03.780286",
  "modified_by": "Administrator",
  "module": "Crop management",
  "name": "Planting",
