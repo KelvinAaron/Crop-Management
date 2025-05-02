@@ -13,7 +13,6 @@ frappe.ui.form.on("Planting", {
             frm.toggle_enable(field, false);
         });
 
-        // Then show the relevant ones
         if (frm.doc.planting_method === "Planted in bed") {
             ["number_of_beds", "bed_length", "bed_width"].forEach(field => {
                 frm.toggle_enable(field, true);
