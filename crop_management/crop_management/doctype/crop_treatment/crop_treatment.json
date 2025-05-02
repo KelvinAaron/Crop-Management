@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-02 15:08:37.270344",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "treatment_date",
+  "agronomist",
+  "treatment_location",
+  "application_method",
+  "uom",
+  "gi_account",
+  "company",
+  "column_break_whok",
+  "planting_batch",
+  "area_covered",
+  "treatment_type",
+  "warehouse",
+  "next_treatment_date",
+  "cost_center",
+  "column_break_yfih",
+  "plant",
+  "name_of_drug",
+  "quantity",
+  "days_to_withhold",
+  "total_cost",
+  "project",
+  "section_break_sxgi",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "treatment_date",
+   "fieldtype": "Date",
+   "label": "Treatment Date"
+  },
+  {
+   "fieldname": "column_break_whok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "planting_batch",
+   "fieldtype": "Link",
+   "label": "Planting Batch",
+   "options": "Planting"
+  },
+  {
+   "fieldname": "column_break_yfih",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "planting_batch.crop_name",
+   "fieldname": "plant",
+   "fieldtype": "Data",
+   "label": "Plant"
+  },
+  {
+   "fieldname": "area_covered",
+   "fieldtype": "Float",
+   "label": "Area Covered"
+  },
+  {
+   "fieldname": "name_of_drug",
+   "fieldtype": "Link",
+   "label": "Name of Drug",
+   "options": "Item"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "treatment_type",
+   "fieldtype": "Data",
+   "label": "Treatment Type"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "application_method",
+   "fieldtype": "Data",
+   "label": "Application Method"
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "days_to_withhold",
+   "fieldtype": "Int",
+   "label": "Days to Withhold"
+  },
+  {
+   "fieldname": "agronomist",
+   "fieldtype": "Link",
+   "label": "Agronomist",
+   "options": "Agronomist"
+  },
+  {
+   "fetch_from": "agronomist.area_of_operation",
+   "fieldname": "treatment_location",
+   "fieldtype": "Data",
+   "label": "Treatment Location"
+  },
+  {
+   "fieldname": "gi_account",
+   "fieldtype": "Data",
+   "label": "GI Account"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "next_treatment_date",
+   "fieldtype": "Date",
+   "label": "Next Treatment Date"
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Data",
+   "label": "Cost Center"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Currency",
+   "label": "Total Cost"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "section_break_sxgi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-02 15:39:25.924057",
+ "modified_by": "Administrator",
+ "module": "Crop management",
+ "name": "Crop Treatment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

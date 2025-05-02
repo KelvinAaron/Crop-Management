@@ -1,0 +1,206 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PT-{####}",
+ "creation": "2025-05-02 14:51:18.853922",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "planting_batch",
+  "location",
+  "planting_method",
+  "column_break_qgni",
+  "crop_name",
+  "location_type",
+  "column_break_cnro",
+  "variety",
+  "season",
+  "section_break_cdrs",
+  "number_of_beds",
+  "area_size_hactres",
+  "light_profile",
+  "value_at_cost",
+  "column_break_qqxv",
+  "bed_length",
+  "resting_days",
+  "estimated_put",
+  "estimated_project_cost",
+  "value_at_sale",
+  "column_break_fmgj",
+  "bed_width",
+  "cost_put",
+  "land_ownership",
+  "expected_yields",
+  "expected_profit",
+  "section_break_ftag",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "planting_batch",
+   "fieldtype": "Data",
+   "label": "Planting Batch"
+  },
+  {
+   "fieldname": "column_break_qgni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "crop_name",
+   "fieldtype": "Link",
+   "label": "Crop Name",
+   "options": "Crop"
+  },
+  {
+   "fieldname": "column_break_cnro",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "crop_name.variety",
+   "fieldname": "variety",
+   "fieldtype": "Data",
+   "label": "Variety"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "location_type",
+   "fieldtype": "Data",
+   "label": "Location Type"
+  },
+  {
+   "fieldname": "season",
+   "fieldtype": "Link",
+   "label": "Season",
+   "options": "Season"
+  },
+  {
+   "fieldname": "planting_method",
+   "fieldtype": "Select",
+   "label": "Planting Method",
+   "options": "Planted in bed\nCover Crop\nRow Crop\nOther"
+  },
+  {
+   "fieldname": "section_break_cdrs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "number_of_beds",
+   "fieldtype": "Data",
+   "label": "Number of Beds"
+  },
+  {
+   "fieldname": "area_size_hactres",
+   "fieldtype": "Float",
+   "label": "Area Size (Hactres)"
+  },
+  {
+   "fieldname": "column_break_qqxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bed_length",
+   "fieldtype": "Data",
+   "label": "Bed Length"
+  },
+  {
+   "fieldname": "column_break_fmgj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bed_width",
+   "fieldtype": "Data",
+   "label": "Bed Width"
+  },
+  {
+   "fieldname": "light_profile",
+   "fieldtype": "Link",
+   "label": "Light Profile",
+   "options": "Light Profile"
+  },
+  {
+   "fieldname": "estimated_project_cost",
+   "fieldtype": "Currency",
+   "label": "Estimated Project Cost"
+  },
+  {
+   "fieldname": "resting_days",
+   "fieldtype": "Int",
+   "label": "Resting Days"
+  },
+  {
+   "fieldname": "land_ownership",
+   "fieldtype": "Select",
+   "label": "Land Ownership",
+   "options": "owned\nleased\nother"
+  },
+  {
+   "fieldname": "expected_yields",
+   "fieldtype": "Float",
+   "label": "Expected Yields"
+  },
+  {
+   "fieldname": "value_at_cost",
+   "fieldtype": "Currency",
+   "label": "Value at Cost of Expected Yields"
+  },
+  {
+   "fieldname": "value_at_sale",
+   "fieldtype": "Currency",
+   "label": "Value at Sale of Expected Yields"
+  },
+  {
+   "fieldname": "expected_profit",
+   "fieldtype": "Currency",
+   "label": "Expected Profit"
+  },
+  {
+   "fieldname": "section_break_ftag",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "estimated_put",
+   "fieldtype": "Int",
+   "label": "Estimated seed/plants put"
+  },
+  {
+   "fieldname": "cost_put",
+   "fieldtype": "Currency",
+   "label": "Cost of seed/plants put"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-02 15:35:57.963925",
+ "modified_by": "Administrator",
+ "module": "Crop management",
+ "name": "Planting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

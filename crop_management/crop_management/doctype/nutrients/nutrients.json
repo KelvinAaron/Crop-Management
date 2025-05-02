@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-02 15:19:49.254442",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "planting_batch",
+  "product_details",
+  "application_method",
+  "column_break_hxyv",
+  "plant",
+  "quantity",
+  "date_of_application",
+  "column_break_ianm",
+  "area_covered",
+  "uom",
+  "next_application_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "planting_batch",
+   "fieldtype": "Link",
+   "label": "Planting Batch",
+   "options": "Planting"
+  },
+  {
+   "fieldname": "column_break_hxyv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ianm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "planting_batch.crop_name",
+   "fieldname": "plant",
+   "fieldtype": "Data",
+   "label": "Plant"
+  },
+  {
+   "fieldname": "area_covered",
+   "fieldtype": "Data",
+   "label": "Area Covered"
+  },
+  {
+   "fieldname": "product_details",
+   "fieldtype": "Link",
+   "label": "Product Details",
+   "options": "Item"
+  },
+  {
+   "fieldname": "application_method",
+   "fieldtype": "Data",
+   "label": "Application Method"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "date_of_application",
+   "fieldtype": "Date",
+   "label": "Date of Application"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "next_application_date",
+   "fieldtype": "Date",
+   "label": "Next Application Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-02 15:23:08.630087",
+ "modified_by": "Administrator",
+ "module": "Crop management",
+ "name": "Nutrients",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

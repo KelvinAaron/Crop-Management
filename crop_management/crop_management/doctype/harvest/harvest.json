@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-02 15:23:29.702895",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "details",
+  "direct_labour_cost",
+  "warehouse",
+  "cost_center",
+  "column_break_kcwv",
+  "planting_batch",
+  "quantity",
+  "general_ledger",
+  "company",
+  "column_break_hmka",
+  "crop",
+  "uom",
+  "cashbank",
+  "project"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_kcwv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "planting_batch",
+   "fieldtype": "Link",
+   "label": "Planting Batch",
+   "options": "Planting"
+  },
+  {
+   "fieldname": "column_break_hmka",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "planting_batch.crop_name",
+   "fieldname": "crop",
+   "fieldtype": "Data",
+   "label": "Crop"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Link",
+   "label": "Details",
+   "options": "Item"
+  },
+  {
+   "fieldname": "direct_labour_cost",
+   "fieldtype": "Currency",
+   "label": "Direct Labour Cost"
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Data",
+   "label": "Cost Center"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "general_ledger",
+   "fieldtype": "Data",
+   "label": "General Ledger"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "cashbank",
+   "fieldtype": "Data",
+   "label": "Cash/Bank"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-02 15:27:31.399205",
+ "modified_by": "Administrator",
+ "module": "Crop management",
+ "name": "Harvest",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
