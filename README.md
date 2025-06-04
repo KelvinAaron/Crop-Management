@@ -1,6 +1,6 @@
 ### Crop management
 
-A Crop management App
+A Crop Management App
 
 ### Installation
 
