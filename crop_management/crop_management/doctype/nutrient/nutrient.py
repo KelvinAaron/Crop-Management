@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Nutrients(Document):
+class Nutrient(Document):
 	pass

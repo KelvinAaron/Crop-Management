@@ -6,6 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "planting_batch",
+  "nutrient_type",
   "product_details",
   "application_method",
   "column_break_hxyv",
@@ -74,15 +75,21 @@
    "fieldname": "next_application_date",
    "fieldtype": "Date",
    "label": "Next Application Date"
+  },
+  {
+   "fieldname": "nutrient_type",
+   "fieldtype": "Link",
+   "label": "Nutrient Type",
+   "options": "Nutrient type"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 15:23:08.630087",
+ "modified": "2025-06-04 21:02:31.397469",
  "modified_by": "Administrator",
  "module": "Crop management",
- "name": "Nutrients",
+ "name": "Nutrient",
  "owner": "Administrator",
  "permissions": [
   {

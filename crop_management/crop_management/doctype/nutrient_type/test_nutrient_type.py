@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestNutrients(FrappeTestCase):
+class TestNutrienttype(FrappeTestCase):
 	pass
