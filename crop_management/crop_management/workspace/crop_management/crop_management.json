@@ -1,0 +1,147 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ANXh4DKFpb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Crop Management</span>\",\"col\":12}},{\"id\":\"N_csxPkDnM\",\"type\":\"card\",\"data\":{\"card_name\":\"Crop Details\",\"col\":4}},{\"id\":\"2vsxSQhl2h\",\"type\":\"card\",\"data\":{\"card_name\":\"Nutrient Details\",\"col\":4}},{\"id\":\"1OL9VjKeFW\",\"type\":\"card\",\"data\":{\"card_name\":\"Crop Health\",\"col\":4}}]",
+ "creation": "2025-06-07 20:56:36.470069",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "unhide",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Crop Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Crop Details",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Light Profile",
+   "link_count": 0,
+   "link_to": "Light Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Crop",
+   "link_count": 0,
+   "link_to": "Crop",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Planting Details",
+   "link_count": 0,
+   "link_to": "Planting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Harvest Details",
+   "link_count": 0,
+   "link_to": "Harvest",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Season",
+   "link_count": 0,
+   "link_to": "Season",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Nutrient Details",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Nutrient",
+   "link_count": 0,
+   "link_to": "Nutrient",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Nutrient Type",
+   "link_count": 0,
+   "link_to": "Nutrient type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Crop Health",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Treatment",
+   "link_count": 0,
+   "link_to": "Crop Treatment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Agronomist",
+   "link_count": 0,
+   "link_to": "Agronomist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-06-07 21:04:05.056761",
+ "modified_by": "Administrator",
+ "module": "Crop management",
+ "name": "Crop Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 31.0,
+ "shortcuts": [],
+ "title": "Crop Management"
+}
